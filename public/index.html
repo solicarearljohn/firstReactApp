@@ -5,23 +5,38 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
+    <meta name="description" content="Web site created using create-react-app" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>React App</title>
+
+    <style>
+      /* Center the body content */
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      /* Optional: Style the #info div */
+      #info {
+        padding: 20px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
 
     <!-- Display your name and section directly in the HTML -->
     <div id="info">
-      <h1>Your Name: Earl John </h1>
-      <p>Your Section: C</p>
+      <h1>Earl John Solicar</h1>
+      <p>Section: C</p>
     </div>
-    
   </body>
 </html>
